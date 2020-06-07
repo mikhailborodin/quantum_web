@@ -30,7 +30,6 @@ pyparsing==3.0.0a1
 python-dateutil==2.8.1
 python-decouple==3.3
 pytz==2020.1
-qboard==0.0.0
 scipy==1.5.0rc1
 service-identity==18.1.0
 six==1.15.0

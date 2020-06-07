@@ -1,0 +1,15 @@
+version: '3.5'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./.deploy/app/Dockerfile
+    env_file: .env
+    volumes:
+      - .:/code
+    environment:
+      DJANGO_SETTINGS_MODULE: quantum_web.settings
+
+    ports:
+      - 8000:8000
+    command: gunicorn -b 0.0.0.0:8000 -w 4 svetofor.wsgi:application --log-file -
