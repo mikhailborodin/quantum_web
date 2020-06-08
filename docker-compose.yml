@@ -12,4 +12,4 @@ services:
 
     ports:
       - 8000:8000
-    command: gunicorn -b 0.0.0.0:8000 -w 4 svetofor.wsgi:application --log-file -
+    command: gunicorn -b 0.0.0.0:8000 -w 4 quantum_web.wsgi:application --log-file -
