@@ -16,7 +16,7 @@ ENV DJANGO_ENV=${DJANGO_ENV} \
     PIPENV_COLORBLIND=true \
     PIPENV_NOSPIN=true \
     PIPENV_DOTENV_LOCATION=.env \
-    DJANGO_SETTINGS_MODULE=svetofor.settings.production
+    DJANGO_SETTINGS_MODULE=quantum_web.settings
 
 RUN set -ex && \
     apt-get update && \
