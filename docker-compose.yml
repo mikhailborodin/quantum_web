@@ -12,4 +12,4 @@ services:
 
     ports:
       - 8000:8000
-    command: daphne -b 0.0.0.0 -p 8000 quantum_web.wsgi:application
+    command: daphne -b 0.0.0.0 -p 8000 quantum_web.asgi:application
