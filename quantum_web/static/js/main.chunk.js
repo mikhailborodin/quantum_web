@@ -167,7 +167,7 @@ class App extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 13
       }
     }, "Start"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_websocket__WEBPACK_IMPORTED_MODULE_5___default.a, {
-      url: "ws://localhost:8000/ws/",
+      url: "ws://0.0.0.0:8000/ws/",
       reconnect: true,
       onMessage: this.handleData.bind(this),
       ref: Websocket => {
